@@ -1,0 +1,7 @@
+<button (click)="toggleText()">
+  {{ showText ? 'Ocultar texto' : 'Mostrar texto' }}
+</button>
+
+@if (showText) {
+  <p>Este es el texto que se puede mostrar u ocultar.</p>
+}
